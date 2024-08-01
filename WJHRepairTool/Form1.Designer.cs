@@ -39,7 +39,6 @@
             DefragmentDrivesbtn = new Button();
             DeleteTempFilesbtn = new Button();
             FixPrinterSpoolerbtn = new Button();
-            button1 = new Button();
             label1 = new Label();
             label2 = new Label();
             GpuLabel = new Label();
@@ -118,7 +117,7 @@
             // UpdateWindowsbtn
             // 
             UpdateWindowsbtn.Font = new Font("Segoe UI", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            UpdateWindowsbtn.Location = new Point(352, 65);
+            UpdateWindowsbtn.Location = new Point(480, 65);
             UpdateWindowsbtn.Name = "UpdateWindowsbtn";
             UpdateWindowsbtn.Size = new Size(296, 58);
             UpdateWindowsbtn.TabIndex = 6;
@@ -129,7 +128,7 @@
             // DiskCleanupbtn
             // 
             DiskCleanupbtn.Font = new Font("Segoe UI", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            DiskCleanupbtn.Location = new Point(352, 129);
+            DiskCleanupbtn.Location = new Point(480, 129);
             DiskCleanupbtn.Name = "DiskCleanupbtn";
             DiskCleanupbtn.Size = new Size(296, 58);
             DiskCleanupbtn.TabIndex = 7;
@@ -140,7 +139,7 @@
             // DefragmentDrivesbtn
             // 
             DefragmentDrivesbtn.Font = new Font("Segoe UI", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            DefragmentDrivesbtn.Location = new Point(352, 193);
+            DefragmentDrivesbtn.Location = new Point(480, 193);
             DefragmentDrivesbtn.Name = "DefragmentDrivesbtn";
             DefragmentDrivesbtn.Size = new Size(296, 58);
             DefragmentDrivesbtn.TabIndex = 8;
@@ -151,7 +150,7 @@
             // DeleteTempFilesbtn
             // 
             DeleteTempFilesbtn.Font = new Font("Segoe UI", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            DeleteTempFilesbtn.Location = new Point(352, 257);
+            DeleteTempFilesbtn.Location = new Point(480, 257);
             DeleteTempFilesbtn.Name = "DeleteTempFilesbtn";
             DeleteTempFilesbtn.Size = new Size(296, 58);
             DeleteTempFilesbtn.TabIndex = 9;
@@ -162,7 +161,7 @@
             // FixPrinterSpoolerbtn
             // 
             FixPrinterSpoolerbtn.Font = new Font("Segoe UI", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            FixPrinterSpoolerbtn.Location = new Point(352, 321);
+            FixPrinterSpoolerbtn.Location = new Point(480, 321);
             FixPrinterSpoolerbtn.Name = "FixPrinterSpoolerbtn";
             FixPrinterSpoolerbtn.Size = new Size(296, 58);
             FixPrinterSpoolerbtn.TabIndex = 10;
@@ -170,21 +169,11 @@
             FixPrinterSpoolerbtn.UseVisualStyleBackColor = true;
             FixPrinterSpoolerbtn.Click += FixPrinterSpoolerbtn_Click;
             // 
-            // button1
-            // 
-            button1.Font = new Font("Segoe UI", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(12, 449);
-            button1.Name = "button1";
-            button1.Size = new Size(296, 58);
-            button1.TabIndex = 11;
-            button1.Text = "Disk Management";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(61, 9);
             label1.Name = "label1";
             label1.Size = new Size(201, 45);
             label1.TabIndex = 12;
@@ -194,7 +183,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(396, 9);
+            label2.Location = new Point(501, 9);
             label2.Name = "label2";
             label2.Size = new Size(252, 45);
             label2.TabIndex = 13;
@@ -203,7 +192,7 @@
             // GpuLabel
             // 
             GpuLabel.AutoSize = true;
-            GpuLabel.Location = new Point(12, 556);
+            GpuLabel.Location = new Point(12, 540);
             GpuLabel.Name = "GpuLabel";
             GpuLabel.Size = new Size(68, 30);
             GpuLabel.TabIndex = 14;
@@ -212,7 +201,7 @@
             // CpuLabel
             // 
             CpuLabel.AutoSize = true;
-            CpuLabel.Location = new Point(12, 526);
+            CpuLabel.Location = new Point(12, 510);
             CpuLabel.Name = "CpuLabel";
             CpuLabel.Size = new Size(68, 30);
             CpuLabel.TabIndex = 15;
@@ -221,7 +210,7 @@
             // RamLabel
             // 
             RamLabel.AutoSize = true;
-            RamLabel.Location = new Point(12, 586);
+            RamLabel.Location = new Point(12, 570);
             RamLabel.Name = "RamLabel";
             RamLabel.Size = new Size(68, 30);
             RamLabel.TabIndex = 16;
@@ -230,7 +219,7 @@
             // WindowsLabel
             // 
             WindowsLabel.AutoSize = true;
-            WindowsLabel.Location = new Point(12, 616);
+            WindowsLabel.Location = new Point(12, 600);
             WindowsLabel.Name = "WindowsLabel";
             WindowsLabel.Size = new Size(68, 30);
             WindowsLabel.TabIndex = 17;
@@ -239,7 +228,7 @@
             // BiosLabel
             // 
             BiosLabel.AutoSize = true;
-            BiosLabel.Location = new Point(12, 646);
+            BiosLabel.Location = new Point(12, 630);
             BiosLabel.Name = "BiosLabel";
             BiosLabel.Size = new Size(68, 30);
             BiosLabel.TabIndex = 18;
@@ -249,7 +238,7 @@
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1376, 698);
+            ClientSize = new Size(786, 669);
             Controls.Add(BiosLabel);
             Controls.Add(WindowsLabel);
             Controls.Add(RamLabel);
@@ -257,7 +246,6 @@
             Controls.Add(GpuLabel);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button1);
             Controls.Add(FixPrinterSpoolerbtn);
             Controls.Add(DeleteTempFilesbtn);
             Controls.Add(DefragmentDrivesbtn);
@@ -288,7 +276,6 @@
         private Button DefragmentDrivesbtn;
         private Button DeleteTempFilesbtn;
         private Button FixPrinterSpoolerbtn;
-        private Button button1;
         private Label label1;
         private Label label2;
         private Label GpuLabel;
